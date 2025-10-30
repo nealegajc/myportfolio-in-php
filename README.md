@@ -1,10 +1,5 @@
 # PHP Portfolio Assignment - Code Organization with PHP Include and Form Validation
 
-## Assignment Details
-**Course:** Individual Assignment: Code Organization with PHP Include and Form Validation  
-**Deadline:** October 31, 2025  
-**Institution:** Batangas State University - Lipa Campus  
-
 ## Files Created
 
 ### 1. Modular PHP Files
