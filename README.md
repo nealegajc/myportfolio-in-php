@@ -1,4 +1,4 @@
-# PHP Portfolio Assignment - Implementation Summary
+# PHP Portfolio Assignment - Code Organization with PHP Include and Form Validation
 
 ## Assignment Details
 **Course:** Individual Assignment: Code Organization with PHP Include and Form Validation  
@@ -136,65 +136,6 @@ All PHP files have been syntax-checked and validated:
 - ✅ header.php - No syntax errors
 - ✅ footer.php - No syntax errors
 
-## How to Test
-
-1. **Start XAMPP Apache Server:**
-   ```bash
-   sudo /opt/lampp/lampp start
-   ```
-
-2. **Access the Portfolio:**
-   - Open browser and navigate to: `http://localhost/myportfolio-in-php/`
-   - Or: `http://localhost/myportfolio-in-php/index.php`
-
-3. **Test Login Page:**
-   - Navigate to: `http://localhost/myportfolio-in-php/login.php`
-   - Try invalid inputs to see validation
-   - Use demo credentials to test successful login
-
-4. **Test Register Page:**
-   - Navigate to: `http://localhost/myportfolio-in-php/register.php`
-   - Test each field with invalid data
-   - Try mismatched passwords
-   - Submit valid data to see success message
-
-## Project Structure
-```
-myportfolio-in-php/
-├── header.php          (Navigation and HTML head)
-├── footer.php          (Scripts and HTML closing tags)
-├── index.php           (Main portfolio page with includes)
-├── login.php           (Login form with regex validation)
-├── register.php        (Registration form with regex validation)
-├── index.html          (Original HTML file - kept for reference)
-├── css/
-│   └── style.css       (Glassmorphism styling)
-├── images/             (Profile and logo images)
-└── README.md           (Project documentation)
-```
-
-## Key Learning Outcomes
-
-1. ✅ **Code Organization:** Separated code into modular, reusable sections
-2. ✅ **PHP Include:** Used include statements to build pages from components
-3. ✅ **Regular Expressions:** Applied regex patterns for input validation
-4. ✅ **Form Processing:** Implemented server-side form handling in PHP
-5. ✅ **Security:** Applied best practices for input sanitization
-6. ✅ **User Experience:** Provided clear validation feedback to users
-
-## Assignment Requirements Met
-
-- [x] Converted HTML to PHP
-- [x] Created modular sections (header, footer)
-- [x] Used PHP include statements
-- [x] Created login.php with validation
-- [x] Created register.php with validation
-- [x] Applied regular expressions for validation
-- [x] Tested all functionality
-- [x] All files properly named and organized
-
----
-
 ## How to Test the Assignment
 
 ### 1. Access the Portfolio
@@ -239,6 +180,40 @@ sudo /opt/lampp/lampp status
 sudo /opt/lampp/lampp restart
 ```
 
+## Project Structure
+```
+myportfolio-in-php/
+├── header.php          (Navigation and HTML head)
+├── footer.php          (Scripts and HTML closing tags)
+├── index.php           (Main portfolio page with includes)
+├── login.php           (Login form with regex validation)
+├── register.php        (Registration form with regex validation)
+├── css/
+│   └── style.css       (Glassmorphism styling)
+├── images/             (Profile and logo images)
+└── README.md           (This documentation)
+```
+
+## Key Learning Outcomes
+
+1. ✅ **Code Organization:** Separated code into modular, reusable sections
+2. ✅ **PHP Include:** Used include statements to build pages from components
+3. ✅ **Regular Expressions:** Applied regex patterns for input validation
+4. ✅ **Form Processing:** Implemented server-side form handling in PHP
+5. ✅ **Security:** Applied best practices for input sanitization
+6. ✅ **User Experience:** Provided clear validation feedback to users
+
+## Assignment Requirements Met
+
+- [x] Converted HTML to PHP
+- [x] Created modular sections (header, footer)
+- [x] Used PHP include statements
+- [x] Created login.php with validation
+- [x] Created register.php with validation
+- [x] Applied regular expressions for validation
+- [x] Tested all functionality
+- [x] All files properly named and organized
+
 ## Submission Checklist
 
 ### Files to Submit:
@@ -249,7 +224,7 @@ sudo /opt/lampp/lampp restart
 - [x] register.php
 - [x] css/style.css
 - [x] images/ folder
-- [x] ASSIGNMENT_SUMMARY.md
+- [x] README.md
 
 ### Screenshots Required:
 1. Index page showing portfolio
@@ -259,9 +234,3 @@ sudo /opt/lampp/lampp restart
 5. Register validation errors
 6. Register success message
 7. Code screenshots (header.php, footer.php, index.php, login.php, register.php)
-
----
-**Student:** JC Jade Nealega  
-**Date:** October 31, 2025  
-**Course:** Information Technology  
-**Institution:** Batangas State University - Lipa Campus
